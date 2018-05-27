@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proj. Instagram Bootstrap </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    </head>
+    <body class="bg-secondary">
+        <header>
+            <nav class="navbar p-0 navbar-expand-lg navbar-light bg-light">
+                <div class="navbar-collapse justify-content-md-center " id="navbarBootstrap" style>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                My Photo Feed
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </header>
+        <div class="container">
+            <div class="row my-3 no-gutters justify-content-md-center">
+                <div class="col-lg-4 col-md-12 mb-4 ">
+                    <div class="card">
+
+                        <div class="card-header p-0">
+                            <div class="row ">
+                                <div class="col-md-6 text-center">
+                                    <span class="float-md-left m-2">Card Title</span> 
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <spam class="float-md-right m-2">12/18</spam>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overlay p-0">
+                            <img src="data:image/jpeg;base64,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" class="card-img-top">
+                            <a href="#">
+                                <div class="mask rgba-white-slipht waves-effect waves-light"></div>
+                            </a>
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="card-text text-left text-justify m-2">
+                                <small>This is my first photo of the feed, this is a multi line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong>.</p></small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-3 no-gutters justify-content-md-center">
+                <div class="col-lg-4 col-md-12 mb-4 ">
+                    <div class="card">
+
+                        <div class="card-header p-0">
+                            <div class="row ">
+                                <div class="col-md-6 text-center">
+                                    <span class="float-md-left m-2">Card Title</span> 
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <spam class="float-md-right m-2">12/18</spam>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overlay p-0">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8wI0HFUOcbVJFymyvGysHNoncrwr1XFmSOkmRlISWP1OaV4ER" class="card-img-top">
+                            <a href="#">
+                                <div class="mask rgba-white-slipht waves-effect waves-light"></div>
+                            </a>
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="card-text text-left text-justify m-2">
+                                <small>This is my first photo of the feed, this is a multi line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong>.</p></small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-3 no-gutters justify-content-md-center">
+                <div class="col-lg-4 col-md-12 mb-4 ">
+                    <div class="card">
+
+                        <div class="card-header p-0">
+                            <div class="row ">
+                                <div class="col-md-6 text-center">
+                                    <span class="float-md-left m-2">Card Title</span> 
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <spam class="float-md-right m-2">12/18</spam>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card overlay p-0">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQni_NkGScd7Tu04FPzYqdHMH1YmiVdxrILU7N5ynw9WtJsfqvv0Q" class="card-img-top">
+                            <a href="#">
+                                <div class="mask rgba-white-slipht waves-effect waves-light"></div>
+                            </a>
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="card-text text-left text-justify m-2">
+                                <small>This is my first photo of the feed, this is a multi line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong>.</p></small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Bootstrapjs">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        </div>
+    </body>
+</html>
